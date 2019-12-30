@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:text="Welcome to Ideal Chemicals (India) Pvt. Ltd."
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Ideal Chemicals (India) Pvt. Ltd. is a premier Chemical Marketing company dealing in Chloro Alkalies and other Industrial Chemicals, Petrochemicals and Engineering Products. With a strong base in Western India, Ideal Chemicals is fast establishing a strong pan-India presence by expanding its infrastructure set-ups across the nation."
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="We are authorized dealer of Gujarat Alkalies and Chemicals Ltd. (GACL), India’s largest producer of various Chloro - alkali products. The company is also affiliated with renowned industrial Corporation – Hindalco Industries Limited – Dahej and Transworld Furtichem Pvt Ltd – Roha."
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="The product range of Ideal Chemicals include: Chloro-alkalies such as Caustic Soda, Chlorine and Chloromethane, Phosphoric acid, Sulphuric acid and other Sulphur derivatives, Hydrogen Peroxide etc. To meet the escalating industrial demands, the company integrated products from petrochemicals and engineering plastics viz. Methanol, Phenol, Sodium Chlorate, Sulphuric Acid, Soda Ash, Titanium Dioxide and Critic Acid in its products range."
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Ideal Chemicals also boast an organized distribution network and developed logistics supply chain that ensure prompt product delivery and services."
+                android:textColor="@android:color/holo_green_dark" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

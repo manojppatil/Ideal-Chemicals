@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IdealChemicals</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About Us</string>
+
+    <string name="menu_home">Lorry Receipt</string>
+    <string name="menu_gallery">Challan</string>
+    <string name="menu_slideshow">Trip Expenses</string>
+    <string name="menu_tools">Invoice</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Logout</string>
+    <string name="title_activity_supervisor">SupervisorActivity</string>
+</resources>
